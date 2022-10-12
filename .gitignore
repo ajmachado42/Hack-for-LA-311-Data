@@ -1,6 +1,9 @@
 # Big Data Folders
 data/
 
+# Big html
+.html
+
 # OSX 
 .DS_Store
 Icon
