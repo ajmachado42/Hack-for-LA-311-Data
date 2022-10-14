@@ -1,5 +1,6 @@
 # Big Data Folders
 data/
+.vscode/
 
 # OSX 
 .DS_Store
