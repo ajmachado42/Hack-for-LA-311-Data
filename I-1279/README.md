@@ -7,7 +7,7 @@ Identify addresses or small areas that could benefit from more signage, increase
 
 | Filename/Folder | Type | Description |
 | --------------- | ---- | ----------- |
-| 01_00_nc_api_cleaning | .ipynb | API dataset pulled from 10/01/21-10/01/22 cleaned |
+| 01_00_nc_api_cleaning | .ipynb | API dataset from 10/01/21-10/01/22 cleaning |
 | 01_01_nc_eda | .ipynb | Exploration of 311 requests by Neighborhood Council - all requests, addresses w/ >= 2 requests, addresses w/ >= 5 requests, timeseries by NC |
 | 01_02_block_eda | .ipynb | Exploration of requests by block created in 02_00_geospatial_cleaning |
 | 02_00_geospatial_cleaning | .ipynb | Cleaning of geodata for Neighborhood Council and 2020 Census block boundaries; spatial merge w/ NC and block boundaries; spatial merge w/ 311 request address point geometry and block geometries | 
