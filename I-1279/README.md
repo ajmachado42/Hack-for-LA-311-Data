@@ -14,6 +14,7 @@ Identify addresses or small areas that could benefit from more signage, increase
 | 02_01_nc_only_viz | .ipynb | Folium choropleth map with 311 request data by Neighborhood Council; layered choropleth map by type by Neighborhood Council; addresses dropped that did not have a certified NC |
 | 02_02_block_only_viz | .ipynb | Folium choropleth map with all 311 request data by Census block; addresses dropped that did not have a matching census block |
 | 02_03_nc_blk_viz | .ipynb | Folium choropleth map with all 311 Request data by Neighborhood Council and Census block; Census blocks use  quantile bins for the legend |
+| 03_00_clustering | .ipynb | Sample of full request dataset; DBScan to identify clusters; classification model from clusters coming soon? |
 | get_311_request_data_csv | .py | [get_311_request_data_csv.py](https://github.com/hackforla/311-data/blob/dev/server/utils/get_request_data_csv.py) for timeframe API pulls; replace datetime, as necessary; cmd line - python get_311_request_data_csv.py "2021-10-01" "2022-10-01" |
 | images | folder | Various charts from EDAs |
 | streamlit | folder | Contains .py file for streamlit app and .html files of Folium maps used in streamlit |
