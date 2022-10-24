@@ -13,7 +13,6 @@
 6. A confirmation will appear in your terminal when the program is complete
 
 You will need the following packages:
-- argparse
 - pandas
 - geopandas
 - shapely
