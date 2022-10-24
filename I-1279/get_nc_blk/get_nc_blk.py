@@ -17,7 +17,6 @@ blk_geo_path = input('PLEASE INPUT filepath for Census Block shape file: ')
 NC = input('PLEASE INPUT the requested Neighborhood Council: ')
 
 # package imports
-import argparse
 import pandas as pd
 import geopandas as gpd
 from shapely.geometry import Point
