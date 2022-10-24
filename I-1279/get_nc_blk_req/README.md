@@ -6,7 +6,7 @@
 > - Your Neighborhood Council shape file (.shp) filepath (folder is located in this repo; do not modify the folder)
 > - Your Census blocks shape file (.shp) filepath (folder is located in this repo; do not modify the folder)
 > - The Neighborhood Council name you are looking for. Make sure it matches the format and names found in the API csv file.
-2. Open your terminal and navigate to the directory this file is located
+2. Open your terminal and navigate to the directory you want the final CSV to be saved in
 3. Enter in the command line: python get_311_request_data_csv.py
 4. Follow the prompts for input of each file path
 5. You may have to wait a bit for the program to fully execute
