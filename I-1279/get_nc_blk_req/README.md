@@ -1,6 +1,8 @@
 # How to use this program:
 ---
 
+Download the full repo if you need block level and NC geometry datasets.
+
 1. Have the following handy: 
 > - Your 311 Request API CSV (from get_311_request_data_csv.py) filepath
 > - Your Neighborhood Council shape file (.shp) filepath (folder is located in this repo; do not modify the folder)
