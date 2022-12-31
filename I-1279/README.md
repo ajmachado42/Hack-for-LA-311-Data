@@ -1,24 +1,35 @@
-# Hack for LA - [311 Data Project](https://www.hackforla.org/projects/311-data.html) - [I-1279](https://github.com/hackforla/311-data/issues/1279) - Analyzing hotspots for 311 Requests
+# Hack for LA - [311 Data Project](https://www.hackforla.org/projects/311-data.html) - [I-1279](https://github.com/hackforla/311-data/issues/1279) - Analyzing hotspots for 311 Requests by Adriana Machado
 ---
 Identify addresses or small areas that could benefit from more signage, increased community assistance, or other actions related to 311
 
-# Introduction
-Hack for LA has partnered with the City of LA to update the city's [311 portal (dev link)](https://dev.311-data.org/map). As a part of this effort, this data science project was done to provide templates for analysis on the 311 data. 
+# Overview
+Hack for LA has partnered with the City of LA to update the city's [311 portal (dev link)](https://dev.311-data.org/map). As a part of this effort, I contributed this data science project to provide templates for analyses on the 311 data. 
 
 Data was pulled using python script which [pulls from the 311 API, using a time frame](https://github.com/hackforla/311-data/blob/dev/server/utils/get_request_data_csv.py) from October 2021 to October 2022. The dataset contained 1,042,208 data points, aka 311 requests.
 
-Exploratory data analysis was performed and various types of folium maps were created to visualize the 311 request data by Neighborhood Council and Census block. Clustering was tested but found to not be as useful as simple EDA. A streamlist app is [IN PROGRESS].
+Exploratory data analysis was performed and various types of folium maps were created to visualize the 311 request data by Neighborhood Council and Census block. Clustering was tested but found to not be as useful as simple EDA. A streamlit app is [IN PROGRESS].
+
+Here are some summary charts based on all 311 requests. More summary charts based on locations with greater than 2 requests and locations with greater than 5 requests can be found in the images folder. 
+
+ ## All Requests
+
+ ### Jointplot Showing Type Clusters by Latitudes and Longitudes for the City of LA
+
+<img src="images/all_req_jointplt.jpg" height="500"> 
+
+### Top 20 Neighborhood Councils for 311 Request Counts
+
+<img src="images/all_req_nc.jpg" width="800"> 
+
+### Summary Chart of 311 Request Counts by Request Type
+
+<img src="images/all_req_type.jpg"> 
+
+# Pulling a Report of 311 Requests with Census Block Identifiers
+
+This csv report is available to be used in Excel with a standard pivot table. The goal is to make this accessible to anyone who may want to do their own analysis with Census block level identifiers. 
 
 The [get_nc_blk_req tool](https://github.com/ajmachado42/Hack-for-LA-311-Data/tree/master/I-1279/get_nc_blk) was created to generate a csv report for more localized analysis of 311 requests. This python script my be run on the command line (with the full repo)--it will clean any dataset pulled, from the API referenced above, and merge that data set with block level geometries from the US 2020 Census, to create a csv that contains each 311 request's address and its corresponding unique Census block ID.
-
-# Methodology
-## Exploratory Data Analysis
-
-## Geospatial Analysis
-
-## Clustering
-
-# Conclusions & Recommendations
 
 # Data Descriptions
 ---
