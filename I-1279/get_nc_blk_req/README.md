@@ -1,7 +1,7 @@
 # How to use this program:
 ---
 
-Download the full repo if you need block level and NC geometry datasets.
+Download this entire folder if you need Census block and NC geometry datasets.
 
 1. Have the following handy: 
 > - Your 311 Request API CSV (from [get_311_request_data_csv.py](https://github.com/hackforla/311-data/blob/dev/server/utils/get_request_data_csv.py)) filepath
