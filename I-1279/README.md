@@ -9,25 +9,24 @@ Data was pulled using python script which [pulls from the 311 API, using a time 
 
 Exploratory data analysis was performed and various types of folium maps were created to visualize the 311 request data by Neighborhood Council and Census block. Clustering was tested but found to not be as useful as simple EDA. A streamlit app is [IN PROGRESS].
 
-Here are some summary charts based on all 311 requests. More summary charts based on locations with greater than 2 requests and locations with greater than 5 requests can be found in the images folder. 
+Here are some summary charts using matplotlib based on all 311 requests. More summary charts based on locations with greater than 2 requests and locations with greater than 5 requests can be found in the images folder. 
+
+Folium maps with geospatial analysis layers can be found in various notebooks (see Data Descriptions section below).
 
  ## All Requests
 
  ### Jointplot Showing Type Clusters by Latitudes and Longitudes for the City of LA
-
-<img src="images/all_req_jointplt.jpg" height="500"> 
+<img src="images/all_req_jointplt.jpg" height="600"> 
 
 ### Top 20 Neighborhood Councils for 311 Request Counts
-
-<img src="images/all_req_nc.jpg" width="800"> 
+<img src="images/all_req_nc.jpg" width="900"> 
 
 ### Summary Chart of 311 Request Counts by Request Type
-
-<img src="images/all_req_type.jpg"> 
+<img src="images/all_req_type.jpg" height = '500'> 
 
 # Pulling a Report of 311 Requests with Census Block Identifiers
 
-This csv report is available to be used in Excel with a standard pivot table. The goal is to make this accessible to anyone who may want to do their own analysis with Census block level identifiers. 
+This csv report is available to be used in Excel with a standard pivot table. The goal is to make this accessible to anyone who may want to do their own analyses with Census block level identifiers. 
 
 The [get_nc_blk_req tool](https://github.com/ajmachado42/Hack-for-LA-311-Data/tree/master/I-1279/get_nc_blk) was created to generate a csv report for more localized analysis of 311 requests. This python script my be run on the command line (with the full repo)--it will clean any dataset pulled, from the API referenced above, and merge that data set with block level geometries from the US 2020 Census, to create a csv that contains each 311 request's address and its corresponding unique Census block ID.
 
