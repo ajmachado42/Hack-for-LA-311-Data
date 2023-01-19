@@ -16,3 +16,9 @@ components.html(source_code, height = 800, width = 1100)
 
 # https://github.com/randyzwitch/streamlit-folium
 # st_folium(HtmlFile)
+
+# adapted from https://discuss.streamlit.io/t/include-an-existing-html-file-in-streamlit-app/5655/3
+HtmlFile2 = open("blk_type_layered.html", 'r', encoding='utf-8')
+source_code2 = HtmlFile2.read() 
+print(source_code2)
+components.html(source_code2, height = 800, width = 1100)

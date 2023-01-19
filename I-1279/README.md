@@ -43,7 +43,7 @@ Summary Chart of 311 Request Counts by Request Type
 | 01_02_block_eda | .ipynb | Exploration of requests by block created in 02_00_geospatial_cleaning |
 | 02_00_geospatial_cleaning | .ipynb | Cleaning of geodata for Neighborhood Council and 2020 Census block boundaries; spatial merge w/ NC and block boundaries; spatial merge w/ 311 request address point geometry and block geometries | 
 | 02_01_nc_only_viz | .ipynb | Folium choropleth map with 311 request data by Neighborhood Council; layered choropleth map by type by Neighborhood Council; addresses dropped that did not have a certified NC |
-| 02_02_block_only_viz | .ipynb | Folium choropleth map with all 311 request data by Census block; addresses dropped that did not have a matching census block |
+| 02_02_block_only_viz | .ipynb | Folium choropleth map with all 311 request data by Census block (and by type); addresses dropped that did not have a matching census block |
 | 02_03_nc_blk_viz | .ipynb | Folium choropleth map with all 311 Request data by Neighborhood Council and Census block; Census blocks use  quantile bins for the legend |
 | 03_00_clustering | .ipynb | Sample of full request dataset; DBScan to identify clusters; classification model from clusters coming soon? |
 | get_311_request_data_csv | .py | [get_311_request_data_csv.py](https://github.com/hackforla/311-data/blob/dev/server/utils/get_request_data_csv.py) for timeframe API pulls; replace datetime, as necessary; cmd line - python get_311_request_data_csv.py "2021-10-01" "2022-10-01" |
