@@ -21,18 +21,21 @@ The [get_nc_blk_req tool](https://github.com/ajmachado42/Hack-for-LA-311-Data/tr
 
 Exploratory data analysis was performed and various types of folium maps were created to visualize the 311 request data by Neighborhood Council and Census block. Clustering was tested but found to not be as useful as simple EDA. A streamlit app is [IN PROGRESS]. Folium maps with geospatial analysis layers can be found in various notebooks (see Data Descriptions section below).
 
-Here are some summary charts using matplotlib based on all 311 requests. More summary charts based on locations with greater than 2 requests and locations with greater than 5 requests can be found in the images folder. 
+Here are some choropleth maps and summary charts using matplotlib based on all 311 requests. More summary charts based on locations with greater than 2 requests and locations with greater than 5 requests can be found in the images folder. Choropleth maps are only screenshots due to size of dataset and html files. 
 
-Screenshot of Folium Map Showing Type Densities by Census Block
-<img src="images/folium_blk_type.jpg" height="600"> 
-
-Screenshot of Folium Map Showing Density of Requests by Neighborhood Council
+## Screenshot of Folium Map Showing Density of Total Requests by Neighborhood Council
 <img src="images/folium_NC.jpg" height="600"> 
 
-Top 20 Neighborhood Councils for 311 Request Counts
+## Screenshot of Folium Map Showing Type Densities by Neighborhood Council
+<img src="images/folium_NC_type.jpg" height="600"> 
+
+## Screenshot of Folium Map Showing Type Densities by Census Block
+<img src="images/folium_blk_type.jpg" height="600"> 
+
+## Top 20 Neighborhood Councils for 311 Request Counts
 <img src="images/all_req_nc.jpg" width="900"> 
 
-Summary Chart of 311 Request Counts by Request Type
+## Summary Chart of 311 Request Counts by Request Type
 <img src="images/all_req_type.jpg" height = '500'> 
 
 
