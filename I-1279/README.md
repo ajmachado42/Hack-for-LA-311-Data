@@ -23,8 +23,11 @@ Exploratory data analysis was performed and various types of folium maps were cr
 
 Here are some summary charts using matplotlib based on all 311 requests. More summary charts based on locations with greater than 2 requests and locations with greater than 5 requests can be found in the images folder. 
 
-Jointplot Showing Type Clusters by Latitudes and Longitudes for the City of LA
-<img src="images/all_req_jointplt.jpg" height="600"> 
+Screenshot of Folium Map Showing Type Densities by Census Block
+<img src="images/folium_blk_type.jpg" height="600"> 
+
+Screenshot of Folium Map Showing Density of Requests by Neighborhood Council
+<img src="images/folium_NC.jpg" height="600"> 
 
 Top 20 Neighborhood Councils for 311 Request Counts
 <img src="images/all_req_nc.jpg" width="900"> 
