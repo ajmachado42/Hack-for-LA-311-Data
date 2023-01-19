@@ -15,4 +15,4 @@ print(source_code)
 components.html(source_code, height = 800, width = 1100)
 
 # https://github.com/randyzwitch/streamlit-folium
-st_folium(HtmlFile)
+# st_folium(HtmlFile)
