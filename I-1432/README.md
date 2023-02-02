@@ -1,0 +1,3 @@
+In progress data science project with time series analysis and forecasting, per city agency, for [Hack for LA 311 Data](https://www.hackforla.org/projects/311-data) by Adriana Machado. Goal is to create templates that may help with agency resource planning. 311 request data used is from 11/01/2021 - 11/01/2022. 
+
+Feel free to reach out with any questions. This README will be updated again later with more details from the project. 
