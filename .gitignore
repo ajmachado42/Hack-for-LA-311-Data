@@ -2,8 +2,8 @@
 data/
 .vscode/
 
-./I-1279/code/02_02_block_only_viz.ipynb
-./I-1279/streamlit/blk_type_layered.html
+I-1279/code/02_02_block_only_viz.ipynb
+I-1279/streamlit/blk_type_layered.html
 
 # OSX 
 .DS_Store
