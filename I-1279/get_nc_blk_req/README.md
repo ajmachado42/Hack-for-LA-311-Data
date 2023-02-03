@@ -7,7 +7,7 @@ Download this entire folder as you will need Census block and NC geometry datase
 > - Your 311 Request API CSV (from [get_311_request_data_csv.py](https://github.com/hackforla/311-data/blob/dev/server/utils/get_request_data_csv.py)) filepath
 > - The Neighborhood Council name you are looking for. Make sure it matches the format and names found in the API csv file.
 2. Open your terminal and navigate to the directory you want the final CSV to be saved in
-3. Enter in the command line: python get_nc_blk.py
+3. Enter in the command line: "python get_nc_blk_req.py" (no quotations)
 4. Follow the prompts for input of each file path
 5. You may have to wait a bit for the program to fully execute
 6. A confirmation will appear in your terminal when the program is complete
