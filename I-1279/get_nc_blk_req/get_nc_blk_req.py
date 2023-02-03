@@ -106,8 +106,8 @@ df_blk_nc.dropna(inplace = True)
 df_blk_nc.reset_index(drop = True, inplace = True)
 
 ### Save CSV
-NC = NC.replace(' ', '_').lower()
-df_blk_nc.to_csv(f'{NC}_nc_blk_req.csv', index = False)
+NC_filename = NC.replace(' ', '_').lower()
+df_blk_nc.to_csv(f'{NC_filename}_nc_blk_req.csv', index = False)
 
 ### Finalization Confirmation
 print('='*75)
