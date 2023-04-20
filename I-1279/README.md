@@ -9,6 +9,10 @@ Hack for LA has partnered with the City of LA to update the city's [311 portal (
 
 Data was pulled using python script which [pulls from the 311 API, using a time frame](https://github.com/hackforla/311-data/blob/dev/server/utils/get_request_data_csv.py) from October 2021 to October 2022. The dataset contained 1,042,208 data points, aka 311 requests.
 
+[City of LA Neighborhood Council boundaries shape files](https://geohub.lacity.org/datasets/9c8639737e3a457a8c0f6a93f9c36974/explore)
+
+[US Census LA city block shape files - tabblock20](https://www2.census.gov/geo/tiger/TIGER2020PL/STATE/06_CALIFORNIA/06037/)
+
 Feel free to reach out if you have any questions or want any specific reports via the Hack for LA Slack or here.
 
 # Pulling a Report of 311 Requests with Census Block Identifiers
